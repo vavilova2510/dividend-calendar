@@ -66,7 +66,11 @@ python -m pytest
 
 ## Автообновление (GitHub Actions + Pages)
 
-`.github/workflows/update.yml` раз в сутки по расписанию (cron)
-запускает скрипт и коммитит обновлённые `docs/index.html` и
-`docs/dividends.csv` обратно в ветку `main`. GitHub Pages настроен
-отдавать сайт из `main` → `/docs`.
+`.github/workflows/update.yml` раз в сутки по расписанию (cron, 06:00
+UTC / 09:00 МСК) запускает скрипт и коммитит обновлённые
+`docs/index.html` и `docs/dividends.csv` обратно в ветку `main`, если
+данные изменились. GitHub Pages настроен отдавать сайт из `main` →
+`/docs`.
+
+Запустить обновление вручную, не дожидаясь расписания: вкладка
+**Actions** → **Update dividend calendar** → **Run workflow**.
