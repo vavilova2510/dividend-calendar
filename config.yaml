@@ -1,0 +1,21 @@
+# Тикеры MOEX, которые попадут в календарь.
+# Код должен совпадать с колонкой "Тикер" на https://smart-lab.ru/dividends/
+# и с SECID на MOEX (обычно совпадают).
+tickers:
+  - GMKN
+  - SIBN
+  - DOMRF
+  - IRAO
+  - X5
+  - LKOH
+  - MAGN
+  - MTSS
+  - NLMK
+  - NVTK
+  - SBER
+  - CHMF
+  - SNGSP
+  - TATNP
+  - TRNFP
+  - PHOR
+  - PLZL
